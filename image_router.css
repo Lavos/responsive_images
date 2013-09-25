@@ -1,0 +1,36 @@
+/* Universal */
+
+
+/* Clear */
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; visibility: hidden; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+
+article { background-color: rgba(255, 255, 200, .2); margin: 0 0 10px 0; }
+article img { display: block; width: 100%; }
+
+@media screen and (max-width: 640px) { /* Phones */
+	article .thumb {  }
+
+}
+
+@media screen and (max-width: 999px) { /* Phones and Tablets */
+
+
+}
+
+@media screen and (min-width: 640px) and (max-width: 999px) { /* just Tablets */
+
+
+}
+
+@media screen and (min-width: 640px) { /* Tablet and above */
+
+
+}
+
+@media screen and (min-width: 1000px) { /* Full */
+	article .thumb { float: left; height: 75px; width: 105px; }
+	article h2 { margin: 0 0 0 125px; }
+}
