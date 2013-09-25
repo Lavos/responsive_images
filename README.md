@@ -2,13 +2,19 @@
 
 # Image Router
 
-This technique finds applicable image urls based on the current responsive context via meta tags.
-
+This technique finds applicable image urls based on the current responsive context via meta tags. Images aren't actually getting replaced, only a currently-applicable image is getting inserted.
 
 ## Syntax
+
+###
 ```html
 <meta name="image:[device]" content="[image url]"/>
 ```
+
+```javascript
+	ImageRouter.processElement(element);
+```
+
 
 ## Example
 ```html
