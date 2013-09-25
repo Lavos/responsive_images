@@ -12,7 +12,7 @@ This technique finds applicable image urls based on the current responsive conte
 ```
 
 ```javascript
-	ImageRouter.processElement(element);
+ImageRouter.processElement(element);
 ```
 
 
